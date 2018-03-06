@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NYFaceRecognitionKit_Example' do
+  pod 'NYFaceRecognitionKit', :path => '../'
+
+  target 'NYFaceRecognitionKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

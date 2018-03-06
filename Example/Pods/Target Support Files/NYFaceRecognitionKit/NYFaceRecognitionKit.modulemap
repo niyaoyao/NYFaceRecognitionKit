@@ -1,0 +1,6 @@
+framework module NYFaceRecognitionKit {
+  umbrella header "NYFaceRecognitionKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

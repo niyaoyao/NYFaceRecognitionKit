@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06945E4D5D05A4AC8998619E434BB319 /* NYFaceRecognitionKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC56B1C3CC28BC2F5546D33F45F51D /* NYFaceRecognitionKit-dummy.m */; };
+		75FEF607132E48FDA7F06F964201F391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8824C8E9FB769181EB250D4CCF7D6CB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8D02FDB4CF2C7F914676DAF396CF1F55 /* Pods-NYFaceRecognitionKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13C4D8432F7828976137EE01A393C8E4 /* Pods-NYFaceRecognitionKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98EF0AF3B3C2E5351659D95A81E6E605 /* Pods-NYFaceRecognitionKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DEE481E76A799C7E0AC51BC9DC8ADF /* Pods-NYFaceRecognitionKit_Tests-dummy.m */; };
+		9E6627E91461F46DD8C181A549CE3BFE /* NYFaceRecognitionKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6283CEE88F31C931906C4F5BFC61FE /* NYFaceRecognitionKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0E9234E30FE16766AFFE626AEB1CD83 /* Pods-NYFaceRecognitionKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A598DBCE5E524A53FF956DE87B46506 /* Pods-NYFaceRecognitionKit_Example-dummy.m */; };
+		ACEC0A65393C556BCDA28AD924B89A06 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F182202C0D32D9FD85E8ED198D6947 /* ReplaceMe.m */; };
+		B95C5A33C8D148E9693CEC777D644DD6 /* Pods-NYFaceRecognitionKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D624353F8818E8DEE48B6EECE2BF529E /* Pods-NYFaceRecognitionKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5E77C2A4C53CE4B77118D2672CFC77F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7421BFF20E459E9689D6800DA1666D93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01AD16D6064EAB87A8FB2ADD65179549;
+			remoteInfo = NYFaceRecognitionKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EBECC61790771FE3F654B47CDADD38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09289EDFA69C5F238969BEA09E93933B /* NYFaceRecognitionKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NYFaceRecognitionKit.xcconfig; sourceTree = "<group>"; };
+		13C4D8432F7828976137EE01A393C8E4 /* Pods-NYFaceRecognitionKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NYFaceRecognitionKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		15AF5D8245F7FD8C6E5BF4F9BBF26CDD /* Pods_NYFaceRecognitionKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NYFaceRecognitionKit_Tests.framework; path = "Pods-NYFaceRecognitionKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FBC56B1C3CC28BC2F5546D33F45F51D /* NYFaceRecognitionKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NYFaceRecognitionKit-dummy.m"; sourceTree = "<group>"; };
+		28D08FA6D31F980E2257F6E429D5E509 /* Pods-NYFaceRecognitionKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NYFaceRecognitionKit_Example.modulemap"; sourceTree = "<group>"; };
+		2C3E6CAECC959EBE43D9A3AF151907C6 /* Pods-NYFaceRecognitionKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NYFaceRecognitionKit_Tests.modulemap"; sourceTree = "<group>"; };
+		2C6283CEE88F31C931906C4F5BFC61FE /* NYFaceRecognitionKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NYFaceRecognitionKit-umbrella.h"; sourceTree = "<group>"; };
+		339E426DE97F8580FB2C8CB70CC9E641 /* Pods-NYFaceRecognitionKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NYFaceRecognitionKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E69CC37CB3EA3A6E4DCE517D680E4D1 /* Pods-NYFaceRecognitionKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NYFaceRecognitionKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		4173EF68CE39D6E109E387EB98D4387F /* Pods-NYFaceRecognitionKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NYFaceRecognitionKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F1B8A76DAC3FBB8641FD65E0481EABD /* NYFaceRecognitionKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NYFaceRecognitionKit.modulemap; sourceTree = "<group>"; };
+		4FAED64B7ADE9050AB06F70270B4626F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5CE4BAEA30E102A074E405BBB04C4FFB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		690C45E423141702FB9C584298819C23 /* NYFaceRecognitionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NYFaceRecognitionKit.framework; path = NYFaceRecognitionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F6E5F6D403C9EA302257BEA60F60BCA /* Pods-NYFaceRecognitionKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NYFaceRecognitionKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		795CF8046B22AE03ABFA0793CA9F7E92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7D0FE807753613338224EEA5F9C4ADD5 /* Pods-NYFaceRecognitionKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NYFaceRecognitionKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8225880B6DD9FB79D130EE3C9FF6AB7C /* Pods_NYFaceRecognitionKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NYFaceRecognitionKit_Example.framework; path = "Pods-NYFaceRecognitionKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		864AF232C6C572319AF8B3654C52CD9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A598DBCE5E524A53FF956DE87B46506 /* Pods-NYFaceRecognitionKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NYFaceRecognitionKit_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD4B0967B631F1AF961944B39CE7FD76 /* NYFaceRecognitionKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NYFaceRecognitionKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B8DEE481E76A799C7E0AC51BC9DC8ADF /* Pods-NYFaceRecognitionKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NYFaceRecognitionKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		BBB47ABD26D669165290059A4E6262AF /* Pods-NYFaceRecognitionKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NYFaceRecognitionKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C6437CAF0C2FECFB3548DDB01F349228 /* Pods-NYFaceRecognitionKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NYFaceRecognitionKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D0F182202C0D32D9FD85E8ED198D6947 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = NYFaceRecognitionKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		D624353F8818E8DEE48B6EECE2BF529E /* Pods-NYFaceRecognitionKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NYFaceRecognitionKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D76B1F8088BB2AEFA376080F89D1EAFA /* Pods-NYFaceRecognitionKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NYFaceRecognitionKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DAC53D4DFC7C7BAEAD96A3C124705659 /* NYFaceRecognitionKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NYFaceRecognitionKit-prefix.pch"; sourceTree = "<group>"; };
+		E43297E02DA906913B4309307D6CCF22 /* Pods-NYFaceRecognitionKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NYFaceRecognitionKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1FD805EAFE084AA67F38F4C74270265 /* Pods-NYFaceRecognitionKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NYFaceRecognitionKit_Example-resources.sh"; sourceTree = "<group>"; };
+		F92532201D43F61FA30E566D4156F327 /* Pods-NYFaceRecognitionKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NYFaceRecognitionKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FB18EBF2FA16C8A0F2B52F03366727C7 /* Pods-NYFaceRecognitionKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NYFaceRecognitionKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B5F5806AABFC5470515931F219685EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8824C8E9FB769181EB250D4CCF7D6CB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A291B7C5B01D99D4FB14E17220CFAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FEF607132E48FDA7F06F964201F391 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BB09630B6ADDAE9523D11E2F5B52E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E77C2A4C53CE4B77118D2672CFC77F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1810373E69104327885DF99B7159BF8D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				864AF232C6C572319AF8B3654C52CD9A /* Info.plist */,
+				4F1B8A76DAC3FBB8641FD65E0481EABD /* NYFaceRecognitionKit.modulemap */,
+				09289EDFA69C5F238969BEA09E93933B /* NYFaceRecognitionKit.xcconfig */,
+				1FBC56B1C3CC28BC2F5546D33F45F51D /* NYFaceRecognitionKit-dummy.m */,
+				DAC53D4DFC7C7BAEAD96A3C124705659 /* NYFaceRecognitionKit-prefix.pch */,
+				2C6283CEE88F31C931906C4F5BFC61FE /* NYFaceRecognitionKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NYFaceRecognitionKit";
+			sourceTree = "<group>";
+		};
+		471F3B2DD5880D27B0391ADD45C8E24D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4FAED64B7ADE9050AB06F70270B4626F /* LICENSE */,
+				AD4B0967B631F1AF961944B39CE7FD76 /* NYFaceRecognitionKit.podspec */,
+				795CF8046B22AE03ABFA0793CA9F7E92 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7142E65AC713765E55AAE73FDCE5DB30 /* Pods-NYFaceRecognitionKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5CE4BAEA30E102A074E405BBB04C4FFB /* Info.plist */,
+				2C3E6CAECC959EBE43D9A3AF151907C6 /* Pods-NYFaceRecognitionKit_Tests.modulemap */,
+				4173EF68CE39D6E109E387EB98D4387F /* Pods-NYFaceRecognitionKit_Tests-acknowledgements.markdown */,
+				D76B1F8088BB2AEFA376080F89D1EAFA /* Pods-NYFaceRecognitionKit_Tests-acknowledgements.plist */,
+				B8DEE481E76A799C7E0AC51BC9DC8ADF /* Pods-NYFaceRecognitionKit_Tests-dummy.m */,
+				C6437CAF0C2FECFB3548DDB01F349228 /* Pods-NYFaceRecognitionKit_Tests-frameworks.sh */,
+				3E69CC37CB3EA3A6E4DCE517D680E4D1 /* Pods-NYFaceRecognitionKit_Tests-resources.sh */,
+				D624353F8818E8DEE48B6EECE2BF529E /* Pods-NYFaceRecognitionKit_Tests-umbrella.h */,
+				E43297E02DA906913B4309307D6CCF22 /* Pods-NYFaceRecognitionKit_Tests.debug.xcconfig */,
+				6F6E5F6D403C9EA302257BEA60F60BCA /* Pods-NYFaceRecognitionKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-NYFaceRecognitionKit_Tests";
+			path = "Target Support Files/Pods-NYFaceRecognitionKit_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D360B3A5618E24B72C84F61475CABE00 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D2F6F8448BF2F5A0C67603D01E5193F0 /* Products */,
+				F45862AFF2C7173A8793B7A49C4CAE38 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA31B7C4329C2BF998D16D895BA95E97 /* NYFaceRecognitionKit */ = {
+			isa = PBXGroup;
+			children = (
+				D0F182202C0D32D9FD85E8ED198D6947 /* ReplaceMe.m */,
+				471F3B2DD5880D27B0391ADD45C8E24D /* Pod */,
+				1810373E69104327885DF99B7159BF8D /* Support Files */,
+			);
+			name = NYFaceRecognitionKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CC98B7318601661B681F2CAF0AED05DA /* Pods-NYFaceRecognitionKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				04EBECC61790771FE3F654B47CDADD38 /* Info.plist */,
+				28D08FA6D31F980E2257F6E429D5E509 /* Pods-NYFaceRecognitionKit_Example.modulemap */,
+				FB18EBF2FA16C8A0F2B52F03366727C7 /* Pods-NYFaceRecognitionKit_Example-acknowledgements.markdown */,
+				339E426DE97F8580FB2C8CB70CC9E641 /* Pods-NYFaceRecognitionKit_Example-acknowledgements.plist */,
+				8A598DBCE5E524A53FF956DE87B46506 /* Pods-NYFaceRecognitionKit_Example-dummy.m */,
+				7D0FE807753613338224EEA5F9C4ADD5 /* Pods-NYFaceRecognitionKit_Example-frameworks.sh */,
+				F1FD805EAFE084AA67F38F4C74270265 /* Pods-NYFaceRecognitionKit_Example-resources.sh */,
+				13C4D8432F7828976137EE01A393C8E4 /* Pods-NYFaceRecognitionKit_Example-umbrella.h */,
+				F92532201D43F61FA30E566D4156F327 /* Pods-NYFaceRecognitionKit_Example.debug.xcconfig */,
+				BBB47ABD26D669165290059A4E6262AF /* Pods-NYFaceRecognitionKit_Example.release.xcconfig */,
+			);
+			name = "Pods-NYFaceRecognitionKit_Example";
+			path = "Target Support Files/Pods-NYFaceRecognitionKit_Example";
+			sourceTree = "<group>";
+		};
+		D2F6F8448BF2F5A0C67603D01E5193F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				690C45E423141702FB9C584298819C23 /* NYFaceRecognitionKit.framework */,
+				8225880B6DD9FB79D130EE3C9FF6AB7C /* Pods_NYFaceRecognitionKit_Example.framework */,
+				15AF5D8245F7FD8C6E5BF4F9BBF26CDD /* Pods_NYFaceRecognitionKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D360B3A5618E24B72C84F61475CABE00 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA31B7C4329C2BF998D16D895BA95E97 /* NYFaceRecognitionKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F45862AFF2C7173A8793B7A49C4CAE38 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC98B7318601661B681F2CAF0AED05DA /* Pods-NYFaceRecognitionKit_Example */,
+				7142E65AC713765E55AAE73FDCE5DB30 /* Pods-NYFaceRecognitionKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2E93A4F0139C17E7CE2A3843561427E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D02FDB4CF2C7F914676DAF396CF1F55 /* Pods-NYFaceRecognitionKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB9AB7856878704702906FE27CBD033 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6627E91461F46DD8C181A549CE3BFE /* NYFaceRecognitionKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30CD78A68001AF9115B978DB6AA8EBB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95C5A33C8D148E9693CEC777D644DD6 /* Pods-NYFaceRecognitionKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01AD16D6064EAB87A8FB2ADD65179549 /* NYFaceRecognitionKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4B69F690B4FA5043E35DA01FBB8D42A /* Build configuration list for PBXNativeTarget "NYFaceRecognitionKit" */;
+			buildPhases = (
+				8DEAA8BD0DEE310FC9C8832AF5FC15CC /* Sources */,
+				4B5F5806AABFC5470515931F219685EF /* Frameworks */,
+				8BB9AB7856878704702906FE27CBD033 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NYFaceRecognitionKit;
+			productName = NYFaceRecognitionKit;
+			productReference = 690C45E423141702FB9C584298819C23 /* NYFaceRecognitionKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		13EF2B8F2D39E4902288FD6A4331F79E /* Pods-NYFaceRecognitionKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E1D0AFA1DC73004A6B8BF88A2B28EB1 /* Build configuration list for PBXNativeTarget "Pods-NYFaceRecognitionKit_Example" */;
+			buildPhases = (
+				9C139F33000172F9828BC9ED8BB1C5C4 /* Sources */,
+				F1BB09630B6ADDAE9523D11E2F5B52E8 /* Frameworks */,
+				2E93A4F0139C17E7CE2A3843561427E6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D519F1F6FD42D48E10E51F95E6F4D8D8 /* PBXTargetDependency */,
+			);
+			name = "Pods-NYFaceRecognitionKit_Example";
+			productName = "Pods-NYFaceRecognitionKit_Example";
+			productReference = 8225880B6DD9FB79D130EE3C9FF6AB7C /* Pods_NYFaceRecognitionKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3656B188D332C3740FE11673EC956CEC /* Pods-NYFaceRecognitionKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6108F967EC87EE92B389DBE245FB57C6 /* Build configuration list for PBXNativeTarget "Pods-NYFaceRecognitionKit_Tests" */;
+			buildPhases = (
+				1D2C0EDB74CB42A021E04E25F53729A2 /* Sources */,
+				57A291B7C5B01D99D4FB14E17220CFAE /* Frameworks */,
+				B30CD78A68001AF9115B978DB6AA8EBB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NYFaceRecognitionKit_Tests";
+			productName = "Pods-NYFaceRecognitionKit_Tests";
+			productReference = 15AF5D8245F7FD8C6E5BF4F9BBF26CDD /* Pods_NYFaceRecognitionKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D2F6F8448BF2F5A0C67603D01E5193F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01AD16D6064EAB87A8FB2ADD65179549 /* NYFaceRecognitionKit */,
+				13EF2B8F2D39E4902288FD6A4331F79E /* Pods-NYFaceRecognitionKit_Example */,
+				3656B188D332C3740FE11673EC956CEC /* Pods-NYFaceRecognitionKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D2C0EDB74CB42A021E04E25F53729A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EF0AF3B3C2E5351659D95A81E6E605 /* Pods-NYFaceRecognitionKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEAA8BD0DEE310FC9C8832AF5FC15CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06945E4D5D05A4AC8998619E434BB319 /* NYFaceRecognitionKit-dummy.m in Sources */,
+				ACEC0A65393C556BCDA28AD924B89A06 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C139F33000172F9828BC9ED8BB1C5C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E9234E30FE16766AFFE626AEB1CD83 /* Pods-NYFaceRecognitionKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D519F1F6FD42D48E10E51F95E6F4D8D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NYFaceRecognitionKit;
+			target = 01AD16D6064EAB87A8FB2ADD65179549 /* NYFaceRecognitionKit */;
+			targetProxy = 7421BFF20E459E9689D6800DA1666D93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		35E92CAEE278EF1D548602C2937F360F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09289EDFA69C5F238969BEA09E93933B /* NYFaceRecognitionKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NYFaceRecognitionKit/NYFaceRecognitionKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NYFaceRecognitionKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NYFaceRecognitionKit/NYFaceRecognitionKit.modulemap";
+				PRODUCT_NAME = NYFaceRecognitionKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5709BD65DB2F41BBF987FB8126BFF3CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F6E5F6D403C9EA302257BEA60F60BCA /* Pods-NYFaceRecognitionKit_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NYFaceRecognitionKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NYFaceRecognitionKit_Tests/Pods-NYFaceRecognitionKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NYFaceRecognitionKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		712FDF4A86733CE4698115CD7073F9BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F92532201D43F61FA30E566D4156F327 /* Pods-NYFaceRecognitionKit_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NYFaceRecognitionKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NYFaceRecognitionKit_Example/Pods-NYFaceRecognitionKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NYFaceRecognitionKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B7B17BAEB2F8369C2853EF06FF7E860C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09289EDFA69C5F238969BEA09E93933B /* NYFaceRecognitionKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NYFaceRecognitionKit/NYFaceRecognitionKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NYFaceRecognitionKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NYFaceRecognitionKit/NYFaceRecognitionKit.modulemap";
+				PRODUCT_NAME = NYFaceRecognitionKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B9F32FDADCFE452D062C50160A372F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E43297E02DA906913B4309307D6CCF22 /* Pods-NYFaceRecognitionKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NYFaceRecognitionKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NYFaceRecognitionKit_Tests/Pods-NYFaceRecognitionKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NYFaceRecognitionKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE62F3A77738848174CA2E52BAD9213C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBB47ABD26D669165290059A4E6262AF /* Pods-NYFaceRecognitionKit_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NYFaceRecognitionKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NYFaceRecognitionKit_Example/Pods-NYFaceRecognitionKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NYFaceRecognitionKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E1D0AFA1DC73004A6B8BF88A2B28EB1 /* Build configuration list for PBXNativeTarget "Pods-NYFaceRecognitionKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				712FDF4A86733CE4698115CD7073F9BB /* Debug */,
+				DE62F3A77738848174CA2E52BAD9213C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6108F967EC87EE92B389DBE245FB57C6 /* Build configuration list for PBXNativeTarget "Pods-NYFaceRecognitionKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F32FDADCFE452D062C50160A372F44 /* Debug */,
+				5709BD65DB2F41BBF987FB8126BFF3CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4B69F690B4FA5043E35DA01FBB8D42A /* Build configuration list for PBXNativeTarget "NYFaceRecognitionKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B17BAEB2F8369C2853EF06FF7E860C /* Debug */,
+				35E92CAEE278EF1D548602C2937F360F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

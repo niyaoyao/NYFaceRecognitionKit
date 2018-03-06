@@ -1,0 +1,22 @@
+{
+  "name": "NYFaceRecognitionKit",
+  "version": "0.1.0",
+  "summary": "A short description of NYFaceRecognitionKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nycode.jn@gmail.com/NYFaceRecognitionKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nycode.jn@gmail.com": "nycode.jn@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/nycode.jn@gmail.com/NYFaceRecognitionKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NYFaceRecognitionKit/Classes/**/*"
+}
