@@ -14,7 +14,6 @@
 		98EF0AF3B3C2E5351659D95A81E6E605 /* Pods-NYFaceRecognitionKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DEE481E76A799C7E0AC51BC9DC8ADF /* Pods-NYFaceRecognitionKit_Tests-dummy.m */; };
 		9E6627E91461F46DD8C181A549CE3BFE /* NYFaceRecognitionKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6283CEE88F31C931906C4F5BFC61FE /* NYFaceRecognitionKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0E9234E30FE16766AFFE626AEB1CD83 /* Pods-NYFaceRecognitionKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A598DBCE5E524A53FF956DE87B46506 /* Pods-NYFaceRecognitionKit_Example-dummy.m */; };
-		ACEC0A65393C556BCDA28AD924B89A06 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F182202C0D32D9FD85E8ED198D6947 /* ReplaceMe.m */; };
 		B95C5A33C8D148E9693CEC777D644DD6 /* Pods-NYFaceRecognitionKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D624353F8818E8DEE48B6EECE2BF529E /* Pods-NYFaceRecognitionKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5E77C2A4C53CE4B77118D2672CFC77F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -33,31 +32,31 @@
 		04EBECC61790771FE3F654B47CDADD38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09289EDFA69C5F238969BEA09E93933B /* NYFaceRecognitionKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NYFaceRecognitionKit.xcconfig; sourceTree = "<group>"; };
 		13C4D8432F7828976137EE01A393C8E4 /* Pods-NYFaceRecognitionKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NYFaceRecognitionKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		15AF5D8245F7FD8C6E5BF4F9BBF26CDD /* Pods_NYFaceRecognitionKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NYFaceRecognitionKit_Tests.framework; path = "Pods-NYFaceRecognitionKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15AF5D8245F7FD8C6E5BF4F9BBF26CDD /* Pods_NYFaceRecognitionKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYFaceRecognitionKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBC56B1C3CC28BC2F5546D33F45F51D /* NYFaceRecognitionKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NYFaceRecognitionKit-dummy.m"; sourceTree = "<group>"; };
-		28D08FA6D31F980E2257F6E429D5E509 /* Pods-NYFaceRecognitionKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NYFaceRecognitionKit_Example.modulemap"; sourceTree = "<group>"; };
-		2C3E6CAECC959EBE43D9A3AF151907C6 /* Pods-NYFaceRecognitionKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NYFaceRecognitionKit_Tests.modulemap"; sourceTree = "<group>"; };
+		28D08FA6D31F980E2257F6E429D5E509 /* Pods-NYFaceRecognitionKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NYFaceRecognitionKit_Example.modulemap"; sourceTree = "<group>"; };
+		2C3E6CAECC959EBE43D9A3AF151907C6 /* Pods-NYFaceRecognitionKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NYFaceRecognitionKit_Tests.modulemap"; sourceTree = "<group>"; };
 		2C6283CEE88F31C931906C4F5BFC61FE /* NYFaceRecognitionKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NYFaceRecognitionKit-umbrella.h"; sourceTree = "<group>"; };
+		325E301A204F0D2A00E35FD7 /* NYFaceRecognition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYFaceRecognition.h; sourceTree = "<group>"; };
 		339E426DE97F8580FB2C8CB70CC9E641 /* Pods-NYFaceRecognitionKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NYFaceRecognitionKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3E69CC37CB3EA3A6E4DCE517D680E4D1 /* Pods-NYFaceRecognitionKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NYFaceRecognitionKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		4173EF68CE39D6E109E387EB98D4387F /* Pods-NYFaceRecognitionKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NYFaceRecognitionKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4F1B8A76DAC3FBB8641FD65E0481EABD /* NYFaceRecognitionKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NYFaceRecognitionKit.modulemap; sourceTree = "<group>"; };
-		4FAED64B7ADE9050AB06F70270B4626F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4F1B8A76DAC3FBB8641FD65E0481EABD /* NYFaceRecognitionKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NYFaceRecognitionKit.modulemap; sourceTree = "<group>"; };
+		4FAED64B7ADE9050AB06F70270B4626F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5CE4BAEA30E102A074E405BBB04C4FFB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		690C45E423141702FB9C584298819C23 /* NYFaceRecognitionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NYFaceRecognitionKit.framework; path = NYFaceRecognitionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		690C45E423141702FB9C584298819C23 /* NYFaceRecognitionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NYFaceRecognitionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F6E5F6D403C9EA302257BEA60F60BCA /* Pods-NYFaceRecognitionKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NYFaceRecognitionKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		795CF8046B22AE03ABFA0793CA9F7E92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		795CF8046B22AE03ABFA0793CA9F7E92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7D0FE807753613338224EEA5F9C4ADD5 /* Pods-NYFaceRecognitionKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NYFaceRecognitionKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8225880B6DD9FB79D130EE3C9FF6AB7C /* Pods_NYFaceRecognitionKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NYFaceRecognitionKit_Example.framework; path = "Pods-NYFaceRecognitionKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8225880B6DD9FB79D130EE3C9FF6AB7C /* Pods_NYFaceRecognitionKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYFaceRecognitionKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		864AF232C6C572319AF8B3654C52CD9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A598DBCE5E524A53FF956DE87B46506 /* Pods-NYFaceRecognitionKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NYFaceRecognitionKit_Example-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AD4B0967B631F1AF961944B39CE7FD76 /* NYFaceRecognitionKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NYFaceRecognitionKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD4B0967B631F1AF961944B39CE7FD76 /* NYFaceRecognitionKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = NYFaceRecognitionKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B8DEE481E76A799C7E0AC51BC9DC8ADF /* Pods-NYFaceRecognitionKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NYFaceRecognitionKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		BBB47ABD26D669165290059A4E6262AF /* Pods-NYFaceRecognitionKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NYFaceRecognitionKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C6437CAF0C2FECFB3548DDB01F349228 /* Pods-NYFaceRecognitionKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NYFaceRecognitionKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		D0F182202C0D32D9FD85E8ED198D6947 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = NYFaceRecognitionKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		D624353F8818E8DEE48B6EECE2BF529E /* Pods-NYFaceRecognitionKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NYFaceRecognitionKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D76B1F8088BB2AEFA376080F89D1EAFA /* Pods-NYFaceRecognitionKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NYFaceRecognitionKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DAC53D4DFC7C7BAEAD96A3C124705659 /* NYFaceRecognitionKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NYFaceRecognitionKit-prefix.pch"; sourceTree = "<group>"; };
@@ -107,6 +106,23 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/NYFaceRecognitionKit";
+			sourceTree = "<group>";
+		};
+		325E3015204F0D0900E35FD7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Assets;
+			path = NYFaceRecognitionKit/Assets;
+			sourceTree = "<group>";
+		};
+		325E3017204F0D0900E35FD7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				325E301A204F0D2A00E35FD7 /* NYFaceRecognition.h */,
+			);
+			name = Classes;
+			path = NYFaceRecognitionKit/Classes;
 			sourceTree = "<group>";
 		};
 		471F3B2DD5880D27B0391ADD45C8E24D /* Pod */ = {
@@ -159,7 +175,8 @@
 		CA31B7C4329C2BF998D16D895BA95E97 /* NYFaceRecognitionKit */ = {
 			isa = PBXGroup;
 			children = (
-				D0F182202C0D32D9FD85E8ED198D6947 /* ReplaceMe.m */,
+				325E3015204F0D0900E35FD7 /* Assets */,
+				325E3017204F0D0900E35FD7 /* Classes */,
 				471F3B2DD5880D27B0391ADD45C8E24D /* Pod */,
 				1810373E69104327885DF99B7159BF8D /* Support Files */,
 			);
@@ -344,7 +361,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				06945E4D5D05A4AC8998619E434BB319 /* NYFaceRecognitionKit-dummy.m in Sources */,
-				ACEC0A65393C556BCDA28AD924B89A06 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
