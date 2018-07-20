@@ -17,7 +17,14 @@ NYFaceRecognitionKit is available through [CocoaPods](http://cocoapods.org). To 
 it, simply add the following line to your Podfile:
 
 ```ruby
+source 'git@github.com:niyaoyao/NYFaceRecognitionKitSpec.git'
+
+platform :ios, '8.0' 
+target '#project-target-name#' do
+
 pod 'NYFaceRecognitionKit'
+
+end
 ```
 
 ## Author
