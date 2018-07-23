@@ -30,11 +30,11 @@ Pod::Spec.new do |s|
     
     s.ios.deployment_target = '8.0'
     
-    s.source_files = 'NYFaceRecognitionKit/Classes/**/*'
+    s.source_files = ['NYFaceRecognitionKit/Classes/**/*', 'NYFaceRecognitionKit/Libraries/DLibKit/dlib/**/*.h']
     s.private_header_files = 'NYFaceRecognitionKit/Libraries/DLibKit/dlib/**/*.h'
     s.vendored_library = 'NYFaceRecognitionKit/Libraries/DLibKit/libdlib.a'
     s.resource_bundles = {
-       'NYFaceRecognitionKit' => ['NYFaceRecognitionKit/Assets/.{jpg,dat,png}']
+       'NYFaceRecognitionKit' => ['NYFaceRecognitionKit/Libraries/DLibKit/shape_predictor_68_face_landmarks.dat']
     }
     
     # s.public_header_files = 'Pod/Classes/**/*.h'
@@ -42,10 +42,9 @@ Pod::Spec.new do |s|
     # s.dependency 'AFNetworking', '~> 2.3'
     
     s.xcconfig = {
-        'GCC_PREPROCESSOR_DEFINITIONS' => 'DLIB_JPEG_SUPPORT' 'DLIB_NO_GUI_SUPPORT' 'DLIB_USE_BLAS' 'NDEBUG' 'DLIB_USE_LAPACK',
+        'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited)' 'DLIB_JPEG_SUPPORT' 'DLIB_NO_GUI_SUPPORT' 'DLIB_USE_BLAS' 'NDEBUG' 'DLIB_USE_LAPACK',
         
-        'ENABLE_BITCODE' => 'NO',
-        'OTHER_CFLAGS' => 'C flags'
+        'OTHER_CFLAGS' => '-DDLIB_JPEG_SUPPORT' '-DDLIB_NO_GUI_SUPPORT' '-DNDEBUG' '-DDLIB_USE_BLAS' '-DDLIB_USE_LAPACK'
     }
     s.libraries = 'c++'
 end
