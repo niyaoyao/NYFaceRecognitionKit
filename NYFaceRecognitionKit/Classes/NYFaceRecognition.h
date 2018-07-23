@@ -8,5 +8,6 @@
 #ifndef NYFaceRecognition_h
 #define NYFaceRecognition_h
 
+#import "DlibWrapper.h"
 
 #endif /* NYFaceRecognition_h */

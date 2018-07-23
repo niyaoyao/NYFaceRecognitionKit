@@ -1,9 +1,9 @@
 {
   "name": "NYFaceRecognitionKit",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "A short description of NYFaceRecognitionKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/nycode.jn@gmail.com/NYFaceRecognitionKit",
+  "homepage": "https://github.com/niyaoyao/NYFaceRecognitionKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,30 @@
     "nycode.jn@gmail.com": "nycode.jn@gmail.com"
   },
   "source": {
-    "git": "https://github.com/nycode.jn@gmail.com/NYFaceRecognitionKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/niyaoyao/NYFaceRecognitionKit.git",
+    "tag": "0.1.2"
   },
+  "social_media_url": "https://weibo.com/nyidea",
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "NYFaceRecognitionKit/Classes/**/*"
+  "source_files": [
+    "NYFaceRecognitionKit/Classes/**/*",
+    "NYFaceRecognitionKit/Libraries/DLibKit/dlib/**/*.h"
+  ],
+  "private_header_files": "NYFaceRecognitionKit/Libraries/DLibKit/dlib/**/*.h",
+  "vendored_libraries": "NYFaceRecognitionKit/Libraries/DLibKit/libdlib.a",
+  "frameworks": [
+    "CoreMedia",
+    "Accelerate",
+    "UIKit"
+  ],
+  "xcconfig": {
+    "GCC_PREPROCESSOR_DEFINITIONS": "DLIB_JPEG_SUPPORT DLIB_NO_GUI_SUPPORT DLIB_USE_BLAS NDEBUG DLIB_USE_LAPACK",
+    "OTHER_CFLAGS": "-DDLIB_JPEG_SUPPORT -DDLIB_NO_GUI_SUPPORT -DNDEBUG -DDLIB_USE_BLAS -DDLIB_USE_LAPACK"
+  },
+  "libraries": "c++",
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "arm64"
+  }
 }

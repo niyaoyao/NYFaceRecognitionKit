@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "NYDlibWrapper.h"
+#import "NYFaceRecognition.h"
 
 FOUNDATION_EXPORT double NYFaceRecognitionKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char NYFaceRecognitionKitVersionString[];

@@ -1,16 +1,16 @@
 PODS:
-  - NYFaceRecognitionKit (0.1.0)
+  - NYFaceRecognitionKit (0.1.2)
 
 DEPENDENCIES:
   - NYFaceRecognitionKit (from `../`)
 
 EXTERNAL SOURCES:
   NYFaceRecognitionKit:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  NYFaceRecognitionKit: e5f3ada0c4f4eb4ca0eac84b079339caf407d020
+  NYFaceRecognitionKit: 86036fca751fd81a5503f9b04a8d20c39ca6c74c
 
 PODFILE CHECKSUM: 21093ceb2952755829117682bf9d792da696fdd3
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3

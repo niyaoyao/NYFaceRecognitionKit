@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'NYFaceRecognitionKit'
-    s.version          = '0.1.1'
+    s.version          = '0.1.2'
     s.summary          = 'A short description of NYFaceRecognitionKit.'
     
     # This description is used to generate tags and improve search results.
@@ -33,19 +33,26 @@ Pod::Spec.new do |s|
     s.source_files = ['NYFaceRecognitionKit/Classes/**/*', 'NYFaceRecognitionKit/Libraries/DLibKit/dlib/**/*.h']
     s.private_header_files = 'NYFaceRecognitionKit/Libraries/DLibKit/dlib/**/*.h'
     s.vendored_library = 'NYFaceRecognitionKit/Libraries/DLibKit/libdlib.a'
-    s.resource_bundles = {
-       'NYFaceRecognitionKit' => ['NYFaceRecognitionKit/Libraries/DLibKit/shape_predictor_68_face_landmarks.dat']
-    }
+    #s.resource_bundles = {
+    #  'NYFaceRecognitionKit' => ['NYFaceRecognitionKit/Libraries/DLibKit/shape_predictor_68_face_landmarks.dat']
+    #}
     
     # s.public_header_files = 'Pod/Classes/**/*.h'
-    s.frameworks = 'CoreMedia', 'Accelerate'
+    s.frameworks = 'CoreMedia', 'Accelerate', 'UIKit'
     # s.dependency 'AFNetworking', '~> 2.3'
     
     s.xcconfig = {
-        'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited)' 'DLIB_JPEG_SUPPORT' 'DLIB_NO_GUI_SUPPORT' 'DLIB_USE_BLAS' 'NDEBUG' 'DLIB_USE_LAPACK',
+        'GCC_PREPROCESSOR_DEFINITIONS' => 'DLIB_JPEG_SUPPORT DLIB_NO_GUI_SUPPORT DLIB_USE_BLAS NDEBUG DLIB_USE_LAPACK',
         
-        'OTHER_CFLAGS' => '-DDLIB_JPEG_SUPPORT' '-DDLIB_NO_GUI_SUPPORT' '-DNDEBUG' '-DDLIB_USE_BLAS' '-DDLIB_USE_LAPACK'
+        'OTHER_CFLAGS' => '-DDLIB_JPEG_SUPPORT -DDLIB_NO_GUI_SUPPORT -DNDEBUG -DDLIB_USE_BLAS -DDLIB_USE_LAPACK'
     }
     s.libraries = 'c++'
+    
+    s.pod_target_xcconfig = {
+        #'SDKROOT' => 'iphoneos',
+        #'ONLY_ACTIVE_ARCH' => 'YES',
+        #'ARCHS' => 'arm64',
+        'VALID_ARCHS' => 'arm64'
+    }
 end
 
