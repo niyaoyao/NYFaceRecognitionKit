@@ -26,18 +26,27 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'nycode.jn@gmail.com' => 'nycode.jn@gmail.com' }
     s.source           = { :git => 'https://github.com/niyaoyao/NYFaceRecognitionKit.git', :tag => s.version.to_s }
-    # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+    s.social_media_url = 'https://weibo.com/nyidea'
     
     s.ios.deployment_target = '8.0'
     
     s.source_files = 'NYFaceRecognitionKit/Classes/**/*'
+    s.private_header_files = 'NYFaceRecognitionKit/Libraries/DLibKit/dlib/**/*.h'
+    s.vendored_library = 'NYFaceRecognitionKit/Libraries/DLibKit/libdlib.a'
+    s.resource_bundles = {
+       'NYFaceRecognitionKit' => ['NYFaceRecognitionKit/Assets/.{jpg,dat,png}']
+    }
     
-    # s.resource_bundles = {
-    #   'NYFaceRecognitionKit' => ['NYFaceRecognitionKit/Assets/*.png']
-    # }
-    
-    s.public_header_files = 'Pod/Classes/**/*.h'
-    # s.frameworks = 'UIKit', 'MapKit'
+    # s.public_header_files = 'Pod/Classes/**/*.h'
+    s.frameworks = 'CoreMedia', 'Accelerate'
     # s.dependency 'AFNetworking', '~> 2.3'
+    
+    s.xcconfig = {
+        'GCC_PREPROCESSOR_DEFINITIONS' => 'DLIB_JPEG_SUPPORT' 'DLIB_NO_GUI_SUPPORT' 'DLIB_USE_BLAS' 'NDEBUG' 'DLIB_USE_LAPACK',
+        
+        'ENABLE_BITCODE' => 'NO',
+        'OTHER_CFLAGS' => 'C flags'
+    }
+    s.libraries = 'c++'
 end
 
