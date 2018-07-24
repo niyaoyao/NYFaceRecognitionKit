@@ -8,8 +8,8 @@
 #import "NYDlibWrapper.h"
 
 #import <UIKit/UIKit.h>
-#include <dlib/image_processing.h>
-#include <dlib/image_io.h>
+#import "image_processing.h"
+#import "image_io.h"
 
 @interface NYDlibWrapper ()
 
